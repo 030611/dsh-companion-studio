@@ -1,0 +1,7 @@
+node_modules/
+lib/
+.tmp-pack*/
+.tmp-run/
+*.tgz
+coverage/
+*.log

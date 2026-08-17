@@ -1,0 +1,4 @@
+# Profile-bundle layer: mount the companion client without replacing DSH UI.
+- insert:
+    - id: companion-studio
+      name: dsh-companion-studio
