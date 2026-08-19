@@ -1,8 +1,20 @@
 # DSH Companion Studio
 
+English | [简体中文](README.zh-CN.md)
+
 An early, privacy-aware desktop-companion engine for DeepSeek Harness. It is deliberately **not** another balance or cost meter. It turns official session facts into useful ambient feedback and leaves character art in independently installable packs.
 
 > Status: public core preview. The runtime, privacy boundary, state machine, pack schema and bundle manifest are testable. No character art is bundled, and npm publishing remains disabled while real-profile QA continues.
+
+## Preview
+
+![DSH Companion Studio enabled in a real local DeepSeek Harness profile](docs/images/companion-overview.png)
+
+The companion is enabled in a real local DSH profile. Its state is visible at the lower right, while the composer shows the active workspace permission, model and mode.
+
+![Chinese companion controls in the draggable settings panel](docs/images/companion-settings.png)
+
+The settings panel is draggable and exposes reply preview, hourly variation, local speech controls, voice selection and local pet upload. The screenshots use the art-free built-in placeholder; independently licensed character packs are installed separately.
 
 ## What is different
 
