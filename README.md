@@ -4,7 +4,7 @@ English | [简体中文](README.zh-CN.md)
 
 An early, privacy-aware desktop-companion engine for DeepSeek Harness. It is deliberately **not** another balance or cost meter. It turns official session facts into useful ambient feedback and leaves character art in independently installable packs.
 
-> Status: public core preview. The runtime, privacy boundary, state machine, pack schema and bundle manifest are testable. No character art is bundled, and npm publishing remains disabled while real-profile QA continues.
+> Status: public core preview. The runtime, privacy boundary, state machine, pack schema and bundle manifest are testable. No redistributable character pack is bundled with the core package, and npm publishing remains disabled while real-profile QA continues.
 
 ## Preview
 
@@ -14,7 +14,7 @@ The companion is enabled in a real local DSH profile. Its state is visible at th
 
 ![Chinese companion controls in the draggable settings panel](docs/images/companion-settings.png)
 
-The settings panel is draggable and exposes reply preview, hourly variation, local speech controls, voice selection and local pet upload. The screenshots use the art-free built-in placeholder; independently licensed character packs are installed separately.
+The settings panel is draggable and exposes reply preview, hourly variation, local speech controls, voice selection and local pet upload. The screenshots show the locally installed Jingyun whale-maid pack; the selected character and outfit are visible in the panel.
 
 ## What is different
 
@@ -31,7 +31,7 @@ The settings panel is draggable and exposes reply preview, hourly variation, loc
 
 ## Bundled demo metadata
 
-The public core includes one art-free metadata placeholder, **星汐 / 星潮鲸灵**, so the picker and outfit settings remain testable. It intentionally renders as a glyph until a user uploads a local image or installs a separately licensed character pack. No whale-maid or third-party character images are distributed by this repository.
+The public core includes one art-free metadata placeholder, **星汐 / 星潮鲸灵**, so the picker and outfit settings remain testable. It intentionally renders as a glyph until a user uploads a local image or installs a character pack. The preview screenshots show a locally installed Jingyun pack; the core runtime and npm package do not bundle its standalone source assets.
 
 ## Pack model
 
@@ -77,7 +77,7 @@ The included `cordis.patch.yml` uses DSH's profile-bundle patch mechanism. This 
 ## Public-repository boundary
 
 - MIT covers the source code in this repository.
-- No character artwork is included in the repository or package files.
+- The core runtime and npm package do not ship standalone character-art source assets; documentation screenshots show local evaluation only.
 - User-uploaded pets stay in that user's browser.
 - External pack authors are responsible for declaring compatible licenses and keeping provenance records.
 
