@@ -16,6 +16,10 @@ The companion is enabled in a real local DSH profile. Its state is visible at th
 
 The native DSH session strip remains visible below the composer. It reports turns, steps, LLM and tool latency, average first-token latency, throughput, cache hit rate, and input/output token counts; the companion complements these facts instead of replacing them.
 
+![Jingyun whale-maid companion showing a live assistant-reply bubble](docs/images/companion-reply-bubble.png)
+
+The bubble shows a short, live preview of the current assistant reply above the selected pet. It reads assistant-authored text only, can be disabled independently, and never selects reasoning, user prompts, tool arguments or tool results. The surrounding conversation body is intentionally omitted from this documentation capture.
+
 ![Chinese companion controls in the draggable settings panel](docs/images/companion-settings.png)
 
 The settings panel is draggable and exposes reply preview, hourly variation, local speech controls, voice selection and local pet upload. The screenshots show the locally installed Jingyun whale-maid pack; the selected character and outfit are visible in the panel.
