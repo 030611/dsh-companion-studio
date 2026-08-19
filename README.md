@@ -12,6 +12,10 @@ An early, privacy-aware desktop-companion engine for DeepSeek Harness. It is del
 
 The companion is enabled in a real local DSH profile. Its state is visible at the lower right, while the composer shows the active workspace permission, model and mode.
 
+![Native DSH live session metrics below the composer](docs/images/session-metrics.png)
+
+The native DSH session strip remains visible below the composer. It reports turns, steps, LLM and tool latency, average first-token latency, throughput, cache hit rate, and input/output token counts; the companion complements these facts instead of replacing them.
+
 ![Chinese companion controls in the draggable settings panel](docs/images/companion-settings.png)
 
 The settings panel is draggable and exposes reply preview, hourly variation, local speech controls, voice selection and local pet upload. The screenshots show the locally installed Jingyun whale-maid pack; the selected character and outfit are visible in the panel.
